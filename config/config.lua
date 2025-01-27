@@ -35,7 +35,7 @@ Config.DisplayVehiclesHidePurchasePrompt = false
 Config.DealerPurchasePrice = 0.8
 Config.VehicleOrderTime = 1
 Config.VehicleColourOptions = {
-  {
+ --[[ {
     label = 'Red',
     hex = '#e81416',
     index = 27,
@@ -64,17 +64,17 @@ Config.VehicleColourOptions = {
     label = 'Purple',
     hex = '#70369d',
     index = 145,
-  },
+  },]]
   {
     label = 'Black',
     hex = '#000000',
     index = 0,
   },
-  {
+  --[[{
     label = 'White',
     hex = '#ffffff',
     index = 111,
-  },
+  },]]
 }
 Config.Categories = {
   planes = 'Planes',
